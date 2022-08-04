@@ -1,0 +1,203 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Averta-Regular', sans-serif;
+    /* font-size: 16px; */
+}
+
+body {
+    line-height: 1.5;
+    color: #514949;
+    background-color: white;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(/images/hero-bg.svg);
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    gap: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 10rem;
+    margin: 0 48px;
+    color: #514949;
+}
+
+#head h2 {
+    font-size: 24px;
+}
+
+.top-image {
+    width: 7%;
+    margin-bottom: 48px;
+}
+#head p {
+    width: 50%;
+    font-size: 14px;
+    /* font-size: 16px; */
+    /* line-height: 24px; */
+    color: #514949;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+#head p a {
+    text-decoration: none;
+    color: #e73328;
+    font-size: 14px;
+} 
+
+#head  a {
+    text-decoration: none;
+    color: #e73328;
+    font-size: 14px;
+}
+
+#head .head-btn {
+    display: flex;
+    gap: 2rem;
+    /* padding: px; */
+}
+
+#head .head-btn a {
+    background-color: #e73328;
+    color:white;
+    padding: 10px 26px;
+    border: 1px solid #e73328;
+}
+
+#head .head-btn .btn-outline {
+    background: white;
+    color: #e73328;
+}
+
+#head .head-btn .btn-outline:hover {
+    background: #e73328;
+    color: white;
+}
+
+#head .head-btn .btn-fill:hover {
+    background: white;
+    color: #e73328;
+}
+
+.heading {
+    text-align: center;
+    font-size: 12px;
+    color: #e73328;
+    font-weight: 500;
+    margin-top: 141px;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 20px;
+    /* line-height: 40px; */
+    color: #514949;
+    margin-top: 4px;
+}
+
+main {
+    margin: 0 80px;
+}
+
+.main-container {
+    display: flex;
+    /* flex-direction: row; */
+    text-align: left;
+    padding: 4rem 2.5rem;
+    gap: 1.5rem;
+    /* margin: 0 30px; */
+}
+
+.main-container div {
+    background-color: #FFFAFA;
+    padding: 54px 40px 64px 40px;
+    /* margin: 0 5px; */
+}
+
+.main-container div img {
+    margin-bottom: 40px;
+    /* width: 45%; */
+}
+
+.main-container div p {
+    font-size: 13px;
+    /* line-height: 24px; */
+    color: #514949;
+    opacity: 0.9;
+    margin-bottom: 12px;
+}
+
+.main-container div a {
+    font-size: 12px;
+    /* line-height: 24px; */
+    color: #e73328;
+    text-decoration: none;
+}
+
+/* #main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:  0 10rem 0 4.5rem;
+    width: 100%;
+    margin: 215px 55px 56px 55px;
+    font-size: 12px;
+    color: #514949;
+}
+
+.footer-logo {
+    width: 7%;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #e73328;
+    /* display: block; */
+}
+
+.footer-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} 
+
+.footer-container .media {
+    display: inline-block;
+    /* gap: 1rem; */
+}
+
+.media h3 {
+    margin-bottom: 20px;
+}
+
+.media img{
+    width: 18px;
+    height: 18px;
+} 
+
+#main-footer hr {
+    width: 85%;
+    margin: 0 0 0 95px;
+}
+
+.copyright {
+    padding: 2rem 1rem;
+    text-align: center;
+}
