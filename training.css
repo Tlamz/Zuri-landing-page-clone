@@ -1,0 +1,115 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Graphik', sans-serif; 
+}
+
+body {
+    background-color: rgb(255, 253, 245);
+}
+
+.container{
+    margin: 0 56px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 64px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 92%;
+    background-color: rgb(255, 253, 245);
+}
+
+.training-logo {
+    padding: 15px 0;
+    width: 308px;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    justify-items: center; */
+    padding-top: 200px ;
+}
+
+.lady-pic {
+    display: flex;
+    width: 385px;
+    height: 358px;
+}
+
+.male-pic {
+    display: flex;
+    align-items: center;
+    width:339px;
+    height: 413px;
+}
+
+.search-text {
+    text-align: center;
+    color: #e7332b;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+}
+
+.search-text2 {
+    color: #1b1a20;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 110%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.line-pic {
+    display: flex;
+    justify-content: right;
+    width: 128px;
+    height: 20px;
+}
+
+.text3 {
+    color: #1b1a20;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 68%;
+}
+
+.enroll-btn1 {
+    background: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 159px;
+}
