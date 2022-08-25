@@ -360,13 +360,13 @@ hr {
   top: -15px;
 }
 
-/* Red section */
-#sctn4 {
+/* Red section, section 5 */
+#sctn5 {
   background-color: #e7332b;
   margin-top: 149px;
 }
 
-.sctn4 {
+.sctn5 {
   background-color: #e7332b;
   padding-top: 64px;
   /* display: flex; */
@@ -434,7 +434,7 @@ hr {
   text-decoration: none;
   /* margin-top: 30px; */
   /* margin-bottom: 40px; */
-  box-shadow: 0px 1px 1px #585757;
+  box-shadow: 0px 2px 3px rgb(88 87 87 / 50%);
 }
 
 .sctn5btns {
@@ -470,9 +470,186 @@ hr {
   padding: 32px;
 }
 
+/* Section 6 */
+
+.sctn6Header {
+  width: 50%;
+  padding-top: 5rem;
+}
+
+.sctn6HeaderText .scope {
+  color: #e7332b;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.sctn6HeaderText .list {
+  color: #1b1a20;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.sctn6Wire {
+  display: flex;
+  justify-content: center;
+}
+
+.sctn6Wire img {
+  width: 12%;
+  margin-top: -32px;
+}
+
+.sctn6Tracks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sctn6TracksWrap {
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  padding: 40px;
+  width: 30%;
+}
+
+.sctn6TracksImg {
+  display: flex;
+
+}
+
+.sctn6TracksWrap h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  padding-bottom: 20px;
+  color: #1b1a20;
+}
+
+.sctn6TracksImg img {
+  width: 70%;
+}
+
+.sctn6TracksWrap p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  line-height: 130%;
+  letter-spacing: .01em;
+}
+
+.sctn6btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 85px;
+}
 
 
+.sctn6btn a {
+  background-color: #e7332b;
+  border-radius: 100px;
+  box-shadow: none;
+  color: #fff;
+  padding: 12px 32px;
+  text-decoration: none;
+}
 
+/* Section 7 */
+.sctn7wire {
+  margin-top: 64px;
+  margin-left: 148px;
+  margin-bottom: -56px;
+}
 
+.sctn7wire img {
+  width: 13%;
+}
 
+.sctn7quest {
+  text-align: center;
+}
 
+.redText {
+  color: #e7332b;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.freqQuest {
+  color: #1b1a20;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 130%;
+  padding-bottom: 100px;
+}
+
+.accordionWrapper {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.accordionContainer {
+  position: relative;
+  border: 1px solid rgba(71,44,111,.43);
+  padding: 20px;
+}
+
+.accordion {
+  /* color: #333; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  cursor: pointer;
+  padding: 12px;
+  /* transition: 0.4s; */
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.moreQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #333;
+  margin-top: 72px;
+  margin-bottom: 48px;
+}
+
+.moreQuestions a {
+  text-decoration: none;
+}
+
+.birdTweet {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.00938em;
+  cursor: pointer;
+  background: #e7332b;
+  border-radius: 71px;
+  /* box-shadow: none; */
+  color: #fff;
+  padding: 10px 32px;
+  /* text-decoration: none; */
+}
+
+.birdTweet svg {
+  width: 32px;
+  fill: #fff;
+}
